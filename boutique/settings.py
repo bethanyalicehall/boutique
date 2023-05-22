@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-g=-aq#-%o%(_r+jibzc^d&o5=ls-k%pllkz^0amp3tpva+blcs
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['localhost']
 
 
 # Application definition
@@ -43,6 +43,7 @@ INSTALLED_APPS = [
     'allauth.account',
     'allauth.socialaccount',
     'home',
+    'products',
 ]
 
 MIDDLEWARE = [
